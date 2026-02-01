@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.blazedemo.tests.FlightBookingTest
+-------------------------------------------------------------------------------
+Tests run: 0, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.577 s -- in com.blazedemo.tests.FlightBookingTest

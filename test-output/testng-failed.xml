@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [BlazeDemo-Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Smoke(failed)">
+    <classes>
+      <class name="com.blazedemo.tests.FlightBookingTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="TC01_Verify_homepage_loads_and_dropdowns_visible"/>
+          <include name="TC04_Multiple_bookings_with_different_data_sets"/>
+          <include name="TC07_Same_departure_and_destination_city"/>
+          <include name="TC03_Complete_a_flight_booking"/>
+          <include name="baseSetup"/>
+          <include name="TC06_Invalid_credit_card_characters"/>
+          <include name="TC02_Search_flights_with_valid_cities"/>
+          <include name="TC05_Blank_credit_card"/>
+        </methods>
+      </class> <!-- com.blazedemo.tests.FlightBookingTest -->
+    </classes>
+  </test> <!-- Smoke(failed) -->
+  <test thread-count="5" name="Functional(failed)">
+    <classes>
+      <class name="com.blazedemo.tests.FlightBookingTest">
+        <methods>
+          <include name="TC04_Multiple_bookings_with_different_data_sets"/>
+          <include name="tearDown"/>
+          <include name="TC01_Verify_homepage_loads_and_dropdowns_visible"/>
+          <include name="TC07_Same_departure_and_destination_city"/>
+          <include name="TC03_Complete_a_flight_booking"/>
+          <include name="baseSetup"/>
+          <include name="TC06_Invalid_credit_card_characters"/>
+          <include name="TC02_Search_flights_with_valid_cities"/>
+          <include name="TC05_Blank_credit_card"/>
+        </methods>
+      </class> <!-- com.blazedemo.tests.FlightBookingTest -->
+    </classes>
+  </test> <!-- Functional(failed) -->
+  <test thread-count="5" name="Data Driven(failed)">
+    <classes>
+      <class name="com.blazedemo.tests.FlightBookingTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="TC01_Verify_homepage_loads_and_dropdowns_visible"/>
+          <include name="TC04_Multiple_bookings_with_different_data_sets"/>
+          <include name="TC07_Same_departure_and_destination_city"/>
+          <include name="TC03_Complete_a_flight_booking"/>
+          <include name="baseSetup"/>
+          <include name="TC06_Invalid_credit_card_characters"/>
+          <include name="TC02_Search_flights_with_valid_cities"/>
+          <include name="TC05_Blank_credit_card"/>
+        </methods>
+      </class> <!-- com.blazedemo.tests.FlightBookingTest -->
+    </classes>
+  </test> <!-- Data Driven(failed) -->
+  <test thread-count="5" name="Negative(failed)">
+    <classes>
+      <class name="com.blazedemo.tests.FlightBookingTest">
+        <methods>
+          <include name="TC01_Verify_homepage_loads_and_dropdowns_visible"/>
+          <include name="TC04_Multiple_bookings_with_different_data_sets"/>
+          <include name="tearDown"/>
+          <include name="TC07_Same_departure_and_destination_city"/>
+          <include name="TC03_Complete_a_flight_booking"/>
+          <include name="baseSetup"/>
+          <include name="TC06_Invalid_credit_card_characters"/>
+          <include name="TC02_Search_flights_with_valid_cities"/>
+          <include name="TC05_Blank_credit_card"/>
+        </methods>
+      </class> <!-- com.blazedemo.tests.FlightBookingTest -->
+    </classes>
+  </test> <!-- Negative(failed) -->
+</suite> <!-- Failed suite [BlazeDemo-Suite] -->
