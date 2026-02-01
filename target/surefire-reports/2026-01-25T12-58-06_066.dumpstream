@@ -1,0 +1,5 @@
+# Created at 2026-01-25T12:58:08.529
+Boot Manifest-JAR contains absolute paths in classpath 'E:\Java Softwares\Eclipse Selenium workspace\com.StarAgile.BlazeDemoFlightBooking\target\test-classes'
+Hint: <argLine>-Djdk.net.URLClassPath.disableClassPathURLCheck=true</argLine>
+'other' has different root
+

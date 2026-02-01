@@ -1,0 +1,20 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="BlazeDemo-Suite_Smoke_Only" parallel="none">
+    
+    <test name="Smoke_TestCase">
+        <classes>
+            <class name="com.blazedemo.tests.FlightBookingTest"/>
+        </classes>    
+        
+        <groups>
+            <run>
+              <include name ="Functional"></include>
+            </run>
+        </groups>
+    </test>
+   
+    <listeners>
+        <listener class-name="com.blazedemo.utils.ExtentReportListeners"/>
+    </listeners>
+</suite>
+
