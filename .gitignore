@@ -4,7 +4,6 @@ pom.xml.tag
 pom.xml.releaseBackup
 pom.xml.versionsBackup
 pom.xml.next
-pom.xml.bak
 release.properties
 dependency-reduced-pom.xml
 buildNumber.properties
@@ -12,22 +11,16 @@ buildNumber.properties
 .mvn/wrapper/maven-wrapper.jar
 
 # Eclipse
+.project
+.classpath
 .settings/
 bin/
-.classpath
-.project
-local.properties
 
-# Java/Selenium
-*.class
-*.jar
-*.war
-hs_err_pid*
-
-# Logs/Reports (e.g., ExtentReports)
-*.log
+# ExtentReports
+ExtentReport.html
 test-output/
-extent-reports/
-reports/
-screenshots/
- 
+Reports/
+
+# OS
+.DS_Store
+Thumbs.db

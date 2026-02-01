@@ -21,14 +21,18 @@ jobs:
       with:
         path: ~/.m2
         key: ${{ runner.os }}-m2-${{ hashFiles('**/pom.xml') }}
+        restore-keys: ${{ runner.os }}-m2
 
     - name: Run Tests
       run: mvn clean test
 
     - name: Upload Reports
+      if: always()
       uses: actions/upload-artifact@v4
       with:
         name: test-reports
         path: |
           target/surefire-reports/
-          ExtentReport.html
+          target/**/Extent*.html
+          test-output/
+        retention-days: 30
